@@ -18,9 +18,22 @@ for (initialization; condition; expression) {
 */ 
 
 for (var i = 0; i < 5; i++) {
-    console.log(i);
+    // console.log(i);
 }
 
 for (var i = 10; i > 0; i--) {
-    console.log(i);
+    // console.log(i);
 }
+
+var num = 2;
+
+for (var i = 0; i <= 10; i++) {
+    console.log(num + " x " + i + " = " + (num*i));
+}               //2     x     1     =      2
+
+var num = parseInt (prompt("Please enter the number"));
+
+for (var i =1; i <= 10; i++) {
+    console.log(num + " x " + i + " = "+ (num * i));
+}
+
