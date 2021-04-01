@@ -8,6 +8,8 @@ else  {
     console.log("It's a consonants");
 }
 
+
+//
 var score = 70;
 
 if (score >= 90 && score <= 100) {
