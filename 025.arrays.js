@@ -42,5 +42,3 @@ You can find out number of elements in an array by length property
 var groups = ["PAS", "FSP", "PSP"];
 console.log(groups.length); //3 elements
 
-
-console.log()

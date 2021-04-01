@@ -6,7 +6,7 @@ a--;  //5
 console.log(a);
 
 var b = 10;
-var c = b++; // first value of b comes in 'c' and then addition of 'b' occurs  
+var c = b++; // first, value of b comes in 'c' and then addition of 'b' occurs  
 
 console.log(b);//11
 console.log(c);//10

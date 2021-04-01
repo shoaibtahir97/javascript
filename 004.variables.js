@@ -19,7 +19,6 @@ The variable age is updated. We will not put var keyword as the variable is prev
 If we put var then it will be new variable 
 */
 
-
 weight = null;
 
 //In null value assigned to variable as a 'no value'. It takes allocation in memory. null is a object
