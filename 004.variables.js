@@ -7,7 +7,6 @@ var weight = 72.4; //number
 var isFeePaid = true; //boolean
 
 
-
 /*
 Used to store data/information, its value can be changed.
 */
