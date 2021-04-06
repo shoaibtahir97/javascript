@@ -8,26 +8,26 @@ Slice Syntax:
     b). end index is exclusive, if you say 4 that means 3rd index
 */ 
 
-// var foods = ["Pizza", "Burger", "Snacks", "Sandwich"];
+var foods = ["Pizza", "Burger", "Snacks", "Sandwich"];
 
-// console.log(foods);//"Pizza", "Burger", "Snacks", "Sandwich"
+console.log(foods);//"Pizza", "Burger", "Snacks", "Sandwich"
 
 
-// var arr = foods.slice(1, 3);
+var arr = foods.slice(1, 3);
 
-// console.console.log(foods); //Output same as above
+console.console.log(foods); //Output same as above
 
-// console.log(arr); //"Burger", "Snacks"
+console.log(arr); //"Burger", "Snacks"
 
-// var names = ["Ajaz", "Samina", "Shoaib", "Ramsha"];
+var names = ["Ajaz", "Samina", "Shoaib", "Ramsha"];
 
-// console.log(names);
+console.log(names);
 
-// var arr = names.slice(1); //Copies all indices from 
+var arr = names.slice(1); //Copies all indices from 
 
-// console.log(names);//Output same as above
+console.log(names);//Output same as above
 
-// console.log(arr);// "Samina", "Shoaib", "Ramsha" (Copies all elements after index)
+console.log(arr);// "Samina", "Shoaib", "Ramsha" (Copies all elements after index)
 
 
 
