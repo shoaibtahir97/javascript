@@ -1,0 +1,11 @@
+.hidden {
+    display: none;
+}
+
+.small {
+    font-size: 1em;
+}
+
+.big {
+    font-size: 2em;
+}

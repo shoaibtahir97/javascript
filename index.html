@@ -5,9 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning Javascript</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src='./033.slicefunction.js' ></script>
 
+    <!-- ONCLICK EVENT -->
+    <!-- <a href="javascript.void(0)" onclick="alert('This page says hello')">Click Me</a>
+    <a href="#" onclick="foo()">Arguments of the function can also be called here</a> -->
+    
+
+<!-- <img src="./images/before-pic.jpeg" onmouseover="src = './images/after-pic.jpeg'" onmouseout="src='./images/before-pic.jpeg'" alt=""> -->
+
+    <!-- ONFOCUS EVENT -->
+    <!-- <input type="text" onfocus="" > -->
+    
+    <!-- READING FEILD VALUES WITH DOCUMENT.WRITE -->
+    <!-- <input type="text" id="age">
+    <button onclick="getName()">Click</button>
+     -->
+
+
+    <!-- <form onsubmit="checkAddress('email')">
+        <input type="text" id="email">
+        <button>Submit</button>
+    </form> -->
+
+
+       <!-- SETTING FEILD VALUES WITH DOCUMENT.WRITE -->
+
+        <!-- <form>
+            ZIP CODE: <br>
+            <input type="text" onblur="fillCity()" id="zip"> <br>
+            City: <br>
+            <input type="text" id="city" >
+
+        </form> -->
+
+        <!-- <form>
+            POSTAL CODE: <br>
+            <input type="text" id="postal" onblur="fillCity()"> <br>
+            CITY: <br>
+            <input type="text" id="city"> 
+        </form> -->
+
+        <!-- READING AND SETTING PARAGRAPH TEXT -->
+        <h2>READING AND SETTING PARAGRAPH TEXT</h2> <br>
+    <p id="slowLoris"> Slow lorises are a group of several species of strepsirrhine primates which make up the genus Nycticebus.
+        <a href="javascript:void(0)" onclick="slowLoris()">Read more</a>
+    </p>
+    
+   <!--  HANDLING IMAGES AND TEXT-->
+<h2>HANDLING IMAGES AND TEXT</h2> <br>
+    <img src="./images/blobfish.jpeg" id="ugly" onclick="makeInvisible()">
+
+<p class="small" onmouseover="makeBig()" id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Ipsum nulla, libero nihil fuga numquam sunt dignissimos 
+        corporis a totam molestias voluptatibus quas accusamus fugiat
+        autem vero explicabo, sed neque sint.</p>
+
+
+        <!-- SWAPPING IMAGES -->
+        <!-- <img id="before" src="./images/Lake.jpg" onmouseover="swapPic()"> -->
+
+        <img src="./images/before-mtj.jpeg" id ="before" onmouseover="chngPic(id, './images/after-mtj.jpeg');">
+   <script src='./066.swappingimgs.js' ></script>
 </body>
 </html>
