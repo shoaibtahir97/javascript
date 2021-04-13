@@ -20,6 +20,12 @@ function chngPic(eId, newPic) {
 
 /*
 You can also use document.getElementById() function by saving the result
-inside a variable.
+inside a variable. And then you can use that variable with.src keyword to get the new image
+using its name.
 */ 
+
+function chngImg() {
+    var pic = document.getElementById("first");
+    pic.src = "after-pic.jpg";
+}
 

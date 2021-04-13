@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,67 +8,101 @@
     <title>Learning Javascript</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <!-- ONCLICK EVENT -->
-    <!-- <a href="javascript.void(0)" onclick="alert('This page says hello')">Click Me</a>
-    <a href="#" onclick="foo()">Arguments of the function can also be called here</a> -->
-    
+        <!-- <a href="javascript.void(0)" onclick="alert('This page says hello')">Click Me</a>
+        <a href="#" onclick="foo()">Arguments of the function can also be called here</a> -->
 
-<!-- <img src="./images/before-pic.jpeg" onmouseover="src = './images/after-pic.jpeg'" onmouseout="src='./images/before-pic.jpeg'" alt=""> -->
+
+        <!-- <img src="./images/before-pic.jpeg" onmouseover="src = './images/after-pic.jpeg'" onmouseout="src='./images/before-pic.jpeg'" alt=""> -->
 
     <!-- ONFOCUS EVENT -->
-    <!-- <input type="text" onfocus="" > -->
-    
+        <!-- <input type="text" onfocus="" > -->
+
+
     <!-- READING FEILD VALUES WITH DOCUMENT.WRITE -->
-    <!-- <input type="text" id="age">
-    <button onclick="getName()">Click</button>
-     -->
+
+        <!-- <input type="text" id="age">
+        <button onclick="getName()">Click</button>
+         -->
 
 
-    <!-- <form onsubmit="checkAddress('email')">
-        <input type="text" id="email">
-        <button>Submit</button>
-    </form> -->
-
-
-       <!-- SETTING FEILD VALUES WITH DOCUMENT.WRITE -->
-
-        <!-- <form>
-            ZIP CODE: <br>
-            <input type="text" onblur="fillCity()" id="zip"> <br>
-            City: <br>
-            <input type="text" id="city" >
-
+        <!-- <form onsubmit="checkAddress('email')">
+            <input type="text" id="email">
+            <button>Submit</button>
         </form> -->
 
+
+    <!-- SETTING FEILD VALUES WITH DOCUMENT.WRITE -->
+
         <!-- <form>
-            POSTAL CODE: <br>
-            <input type="text" id="postal" onblur="fillCity()"> <br>
-            CITY: <br>
-            <input type="text" id="city"> 
-        </form> -->
+                ZIP CODE: <br>
+                <input type="text" onblur="fillCity()" id="zip"> <br>
+                City: <br>
+                <input type="text" id="city" >
 
-        <!-- READING AND SETTING PARAGRAPH TEXT -->
-        <h2>READING AND SETTING PARAGRAPH TEXT</h2> <br>
-    <p id="slowLoris"> Slow lorises are a group of several species of strepsirrhine primates which make up the genus Nycticebus.
-        <a href="javascript:void(0)" onclick="slowLoris()">Read more</a>
-    </p>
-    
-   <!--  HANDLING IMAGES AND TEXT-->
-<h2>HANDLING IMAGES AND TEXT</h2> <br>
-    <img src="./images/blobfish.jpeg" id="ugly" onclick="makeInvisible()">
+            </form> -->
 
-<p class="small" onmouseover="makeBig()" id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Ipsum nulla, libero nihil fuga numquam sunt dignissimos 
-        corporis a totam molestias voluptatibus quas accusamus fugiat
-        autem vero explicabo, sed neque sint.</p>
+        <!-- <form>
+                POSTAL CODE: <br>
+                <input type="text" id="postal" onblur="fillCity()"> <br>
+                CITY: <br>
+                <input type="text" id="city"> 
+            </form> -->
 
 
-        <!-- SWAPPING IMAGES -->
+    <!-- READING AND SETTING PARAGRAPH TEXT -->
+
+        <!-- <h2>READING AND SETTING PARAGRAPH TEXT</h2> <br>
+        <p id="slowLoris"> Slow lorises are a group of several species of strepsirrhine primates which make up the genus
+            Nycticebus.
+            <a href="javascript:void(0)" onclick="slowLoris()">Read more</a>
+        </p> -->
+
+
+    <!--  HANDLING IMAGES AND TEXT-->
+
+        <!-- <h2>HANDLING IMAGES AND TEXT</h2> <br>
+        <img src="./images/blobfish.jpeg" id="ugly" onclick="makeInvisible()">
+
+        <p class="small" onmouseover="makeBig()" id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Ipsum nulla, libero nihil fuga numquam sunt dignissimos 
+            corporis a totam molestias voluptatibus quas accusamus fugiat
+            autem vero explicabo, sed neque sint.
+        </p>-->
+
+    <!-- SWAPPING IMAGES -->
+
         <!-- <img id="before" src="./images/Lake.jpg" onmouseover="swapPic()"> -->
+        <!-- <img src="./images/before-mtj.jpeg" id ="before" onmouseover="chngPic(id, './images/after-mtj.jpeg');">
+        <img src="./images/before-pic.jpeg" id="first" onclick="chngeImg()">             -->
 
-        <img src="./images/before-mtj.jpeg" id ="before" onmouseover="chngPic(id, './images/after-mtj.jpeg');">
-   <script src='./066.swappingimgs.js' ></script>
+
+    <!-- SETTING CLASSES -->
+            <!-- <h1 id="p1" onmouseover="makeLarge()">Setting Classes Example</h1> -->
+    
+    <!-- TARGETING ALL AND SOME ELEMENTS BY TAG NAME -->
+    
+        <!-- <div id="rules">
+            <p>RAMZAN KAREEM IS HERE!</p>
+            <p>DO LOTS OF IBADAT IN RAMAZAN</p>
+            <p>HELP THE NEEDY PEOPLE IN RAMAZAN</p>
+        </div>
+        <button onclick="increaseFont()">Increase Font Size</button>
+    -->
+   
+    <!-- TARGETING SOME ELEMENTS BY TAG NAME -->
+        <div id="rules">
+            <p>RAMZAN KAREEM IS HERE!</p>
+            <p>DO LOTS OF IBADAT IN RAMAZAN</p>
+            <p>HELP THE NEEDY PEOPLE IN RAMAZAN</p>
+        </div>
+        <button onclick="getsome()">Increase Font Size</button>
+          
+           
+            <script src='./069.targetsomeelementsbytagname.js'></script>
 </body>
+
 </html>
